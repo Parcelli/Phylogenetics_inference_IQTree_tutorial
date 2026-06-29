@@ -42,7 +42,7 @@ iqtree2 \
 * Key Output : **aligned.treefile**
 ### Assess  tree quality
 Open the tree in **Figtree** as below to check for long branches, outliers and poorly supported branches. Generally a bootstrap value of >70% indicates reasonable support.
-You will see a pop window asking you to select the label for your input, click **OK** . Proceed to the figtree window and select the options as in the figure below to check bootsrap support value.
+You will see a pop up window asking you to select the label for your input, click **OK** . Proceed to the figtree window and select the options as in the figure below to check bootsrap support value.
 
 ```
 figtree aligned.treefile
