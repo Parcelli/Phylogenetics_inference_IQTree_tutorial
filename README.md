@@ -1,4 +1,4 @@
-# ViGOR BIOINFORMATICS TRAINING : MODULE 4
+# ViGOR BIOINFORMATICS TRAINING 
 ## Phlogenetics Inference Practical
 This tutorial walks you through a typical workflow from aligned sequences to a dated phylogeny suitable for genomic epidemiology studies.
 
