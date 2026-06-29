@@ -31,7 +31,7 @@ iqtree2 \
 | -nt AUTO   | Automatic CPU detection |
 
 
-### Output files
+#### Output files
 | File      | Description             |
 | --------- | ----------------------- |
 | .treefile | Maximum likelihood tree |
@@ -47,12 +47,16 @@ You will see a pop up window asking you to select the label for your input, clic
 
 ```
 figtree aligned.treefile
-
 ```
 <img width="830" height="729" alt="image" src="https://github.com/user-attachments/assets/4d2f4a2f-281a-45ba-b6f9-e2885affafac" />
+ 
 
 
-# Generate a Time-scaled tree using Timetree
+### Generate a Time-scaled tree using Timetree
+
+
+### Exercise
+
 
 
 
