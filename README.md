@@ -1,17 +1,18 @@
-# Phlogenetics Inference Using IQTree
+# ViGOR BIOINFORMATICS TRAINING : MODULE 4
+## Phlogenetics Inference Practical
 This tutorial walks you through a typical workflow from aligned sequences to a dated phylogeny suitable for genomic epidemiology studies.
 
-## Pre-requisite
+### Pre-requisite
 This tutorial assumes that you have an aligned fasta file ready for phylogenetics inference using IQ-Tree. If not please align your sequences using **mafft** and curate the alignment using **Aliview** before proceeding.
 
-## Tool Installation using Conda 
+### Tool Installation using Conda 
 
 ```
 conda install bioconda::iqtree
 #Check success of installation
 iqtree --version
 ```
-## Tree Inference 
+### Tree Inference using IQtree
 
 ```
 iqtree2 \
@@ -21,7 +22,7 @@ iqtree2 \
 -nt AUTO
 ```
 
-### Parameters
+#### Parameters
 | Parameter  | Meaning                 |
 | ---------- | ----------------------- |
 | -s         | Input alignment         |
@@ -49,6 +50,10 @@ figtree aligned.treefile
 
 ```
 <img width="830" height="729" alt="image" src="https://github.com/user-attachments/assets/4d2f4a2f-281a-45ba-b6f9-e2885affafac" />
+
+
+# Generate a Time-scaled tree using Timetree
+
 
 
 
